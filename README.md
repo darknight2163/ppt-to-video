@@ -11,7 +11,7 @@ This repository provides:
 - **Extract Content**: Extracts text content from PowerPoint slides.
 - **Text-to-Audio Conversion**: Converts extracted text into audio files.
 - **Slides-to-Images**: Converts each slide into an image.
-- **Video Generation**: Combines images and audio to create a video.
+- **Video Creation**: Combines images and audio to create a video.
 
 ---
 
@@ -29,10 +29,12 @@ Before using the library, the following dependencies must be installed:
 #### Installing System Dependencies
 - **For Debian/Ubuntu**:
 Run the following commands:
-  ```bash
+  ```
   sudo apt-get update
+  ```
+  ```
   sudo apt-get install -y libreoffice poppler-utils ffmpeg
-  
+  ```
 ---
 
 ## Installation
