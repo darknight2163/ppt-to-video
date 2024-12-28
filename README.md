@@ -36,36 +36,34 @@ Run the following commands:
   sudo apt-get install -y libreoffice poppler-utils ffmpeg
   ```
 ---
-
 ## Installation
-
 ### 1. Clone the repo
-```bash
-git clone https://github.com/your-username/ppt-to-video-converter.git
+```
+git clone https://github.com/darknight2163/ppt-to-video.git
 cd ppt-to-video-converter
-
+```
 ### 2. Create a Python Virtual Environment (Recommended)
-```bash
+```
 python -m venv env
+```
+```
 source env/bin/activate   # On Linux/Mac
-
+```
 ### 3. Install the Library
-```python
-pip install dist/ppt_presenter-<version>-py3-none-any.whl
-
+```
+pip install dist/ppt_to_video-0.1.0-py3-none-any.whl
+```
 ## Running the application
 Option 1: Run main.py
 The main.py script provides a user-friendly way to test the library:
-
-```bash
+```
 python main.py
-
+```
 You will be prompted to provide a .pptx file, and the script will:
-
 1. Extract text from slides.
 2. Convert text to audio.
 3. Generate images from slides.
 4. Create a video combining the images and audio.
 
 Option 2: Use the Jupyter Notebook
-If you prefer an interactive approach, use the provided .ipynb file
+If you prefer an interactive approach, use the provided [ppt_presenter.ipynb](https://github.com/darknight2163/ppt-to-video/blob/main/ppt_presenter.ipynb) file.
