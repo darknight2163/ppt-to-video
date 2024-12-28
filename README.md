@@ -67,3 +67,24 @@ You will be prompted to provide a .pptx file, and the script will:
 
 `Option 2`: Use the Jupyter Notebook
 - If you prefer an interactive approach, use the provided [ppt_presenter.ipynb](https://github.com/darknight2163/ppt-to-video/blob/main/ppt_presenter.ipynb) file.
+
+## Feature List for `PPT to Video` Library
+
+| **Feature**                            | **Description**                                                                 | **Status**         | **Version**  |
+|----------------------------------------|---------------------------------------------------------------------------------|--------------------|--------------|
+| **Slide Conversion**                   | Converts PPTX slides into a video format.                                         | ✔️ Implemented     | 1.0          |
+| **Text-to-Speech (TTS) Narration**     | Reads out the text content from each slide using Text-to-Speech technology.       | ✔️ Implemented     | 1.0          |
+| **AI-Based Content Understanding**     | In future versions, the library will use GPT models to understand slide content and generate **explainable audio** based on the context, rather than simply reading the text. | ⏱️ Upcoming        | 2.0          |
+| **Slide Transition Effects**           | Basic slide transitions (e.g., fade, cut) between slides in the video output.    | ⏱️ Upcoming        | 2.0          |
+| **Customizable Voice Selection**       | Allows users to select from multiple voices for TTS narration.                   | ⏱️ Upcoming        | 3.0          |
+| **Background Music**                   | Option to add background music to the video output.                              | ⏱️ Upcoming        | 3.0          |
+| **Custom Video Resolution**            | Option to select the resolution for the output video (e.g., 720p, 1080p).        | ⏱️ Upcoming        | 3.0          |
+| **Export to Different Video Formats**  | Supports exporting to multiple video formats like MP4, MOV, AVI, etc.            | ⏱️ Upcoming        | 4.0          |
+| **Multilingual Support**               | Adds support for multiple languages in TTS narration.                            | ⏱️ Upcoming        | 4.0          |
+
+---
+
+
+## Open Source Contribution
+Your contributions are always welcome! Feel free to contribute ideas, feedback, or create issues and bug reports if you find any!
+
