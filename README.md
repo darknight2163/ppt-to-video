@@ -7,7 +7,7 @@ This repository provides:
 
 ---
 
-## Features
+## ✨Features
 - **Extract Content**: Extracts text content from PowerPoint slides.
 - **Text-to-Audio Conversion**: Converts extracted text into audio files.
 - **Slides-to-Images**: Converts each slide into an image.
@@ -15,7 +15,7 @@ This repository provides:
 
 ---
 
-## Prerequisites
+## ⚙️Prerequisites
 
 ### 1. Python Requirements
 - **Python Version**: Ensure you have Python >= 3.9 installed on your system.
@@ -36,7 +36,7 @@ Run the following commands:
   sudo apt-get install -y libreoffice poppler-utils ffmpeg
   ```
 ---
-## Installation
+## 🔧Installation
 ### 1. Clone the repo
 ```
 git clone https://github.com/darknight2163/ppt-to-video.git
@@ -53,7 +53,7 @@ source env/bin/activate   # On Linux/Mac
 ```
 pip install dist/ppt_to_video-0.1.0-py3-none-any.whl
 ```
-## Running the application
+## 🏃‍♂️Running the application
 `Option 1`: Run main.py
 - The main.py script provides a user-friendly way to test the library:
 ```
@@ -84,7 +84,6 @@ You will be prompted to provide a .pptx file, and the script will:
 
 ---
 
-
-## Open Source Contribution
+## 💡Open Source Contribution
 Your contributions are always welcome! Feel free to contribute ideas, feedback, or create issues and bug reports if you find any!
 
