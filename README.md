@@ -12,20 +12,16 @@ This repository provides:
 - **Text-to-Audio Conversion**: Converts extracted text into audio files.
 - **Slides-to-Images**: Converts each slide into an image.
 - **Video Creation**: Combines images and audio to create a video.
-
 ---
 
 ## ⚙️Prerequisites
-
 ### 1. Python Requirements
 - **Python Version**: Ensure you have Python >= 3.9 installed on your system.
-
 ### 2. System Dependencies
 Before using the library, the following dependencies must be installed:
 - **libreoffice**
 - **poppler-utils**
 - **ffmpeg**
-
 #### Installing System Dependencies
 - **For Debian/Ubuntu**:
 Run the following commands:
