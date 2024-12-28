@@ -54,7 +54,7 @@ source env/bin/activate   # On Linux/Mac
 pip install dist/ppt_to_video-0.1.0-py3-none-any.whl
 ```
 ## Running the application
-Option 1: Run main.py
+(`Option 1`): Run main.py
 The main.py script provides a user-friendly way to test the library:
 ```
 python main.py
@@ -65,5 +65,5 @@ You will be prompted to provide a .pptx file, and the script will:
 3. Generate images from slides.
 4. Create a video combining the images and audio.
 
-Option 2: Use the Jupyter Notebook
+(`Option 2`): Use the Jupyter Notebook
 If you prefer an interactive approach, use the provided [ppt_presenter.ipynb](https://github.com/darknight2163/ppt-to-video/blob/main/ppt_presenter.ipynb) file.
