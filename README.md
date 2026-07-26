@@ -2,7 +2,7 @@
 
 This repository provides:
 - A Python library for converting PowerPoint presentations (`.pptx`) into videos.
-- A `main.py` file for testing the library functionality.
+- `backend/` folder for testing through python scripts.
 - A `.ipynb` file for quick testing and usage in Jupyter Notebooks.
 
 ---
@@ -45,13 +45,15 @@ python -m venv env
 ```
 source env/bin/activate   # On Linux/Mac
 ```
-### 3. Install the Library
+### 3. Install the requirements
 ```
-pip install dist/ppt_to_video-0.1.0-py3-none-any.whl
+cd backend/
+bash install.sh
+pip install -r requirements.txt
 ```
 ## 🏃‍♂️Running the application
 `Option 1`: Run main.py
-- The main.py script provides a user-friendly way to test the library:
+- The [backend/main.py](https://github.com/darknight2163/ppt-to-video/blob/main/backend/main.py) script provides a user-friendly way to test the library:
 ```
 python main.py
 ```
@@ -62,7 +64,7 @@ You will be prompted to provide a .pptx file, and the script will:
 4. Create a video combining the images and audio.
 
 `Option 2`: Use the Jupyter Notebook
-- If you prefer an interactive approach, use the provided [ppt_presenter.ipynb](https://github.com/darknight2163/ppt-to-video/blob/main/ppt_presenter.ipynb) file.
+- If you prefer an interactive approach, use the provided [notebooks/ppt_presenter.ipynb](https://github.com/darknight2163/ppt-to-video/blob/main/notebooks/ppt_presenter.ipynb) file.
 
 ## Feature List for `PPT to Video` Library
 
