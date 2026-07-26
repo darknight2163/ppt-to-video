@@ -1,0 +1,7 @@
+python-pptx==1.0.2
+gtts==2.5.4
+tqdm==4.67.1
+pdf2image==1.17.0
+moviepy==1.0.3
+pydub==0.25.1
+opencv-python==4.10.0.84
